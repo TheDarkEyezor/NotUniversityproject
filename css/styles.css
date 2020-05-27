@@ -10368,3 +10368,7 @@ body {
 .id {
   background-color: black;
 }
+
+#wbu {
+  border-left: 0.5rem solid #64a19d;
+}
