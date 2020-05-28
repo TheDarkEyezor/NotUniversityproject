@@ -7,5 +7,6 @@ os.system("wget https://api.covid19api.com/summary")
 time.sleep(5)
 os.system("mv summary summary.json")
 os.system("git push -u origin master")
-
+os.system("git add .")
+os.system("git commit -m "update" ")
 #incomplete scipt
