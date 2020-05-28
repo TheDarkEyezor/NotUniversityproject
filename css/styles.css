@@ -10372,4 +10372,7 @@ body {
 #wbu {
   border-left: 0.5rem solid #64a19d;
   padding-left: 10px;
+  border-top: 10px;
+  border-bottom: 20px;
+  padding: 5px;
 }
