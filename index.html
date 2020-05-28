@@ -47,13 +47,15 @@
 
 
         <!--Map-->
-        <div id='map' style='width: 1800px; height: 620px;'></div>
+        <div id='map' style='width: 1520px; height: 620px;'></div>
 <script>
 mapboxgl.accessToken = 'pk.eyJ1IjoiY3lyaXhuaW5qYSIsImEiOiJjazl3eGczMTgwOWs4M2dwMzZwamxyaWpzIn0.q9v1Q-jArMUoYWvn0KRcCQ';
 var map = new mapboxgl.Map({
 container: 'map',
 style: 'mapbox://styles/mapbox/dark-v10'
 });
+map.addControl(new mapboxgl.NavigationControl());
+
 </script>
         <!-- About-->
         <section class="about-section text-center" id="about">
