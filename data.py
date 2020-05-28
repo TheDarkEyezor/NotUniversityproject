@@ -1,10 +1,11 @@
 import os
 import time
 ##Specifically written for linux only
-
-
+os.system("cd NotUniversityproject")
+os.system("rm summary.json")
 os.system("wget https://api.covid19api.com/summary")
-time.sleep("5")
-
+time.sleep(5)
+os.system("mv summary summary.json")
+os.system("git push -u origin master")
 
 #incomplete scipt
