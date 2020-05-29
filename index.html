@@ -25,7 +25,6 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#info">Submit Your Suggestions here</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#wbu">What you can do</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="login.html">Login/Signup</a></li>
                        
@@ -47,7 +46,7 @@
 
 
         <!--Map-->
-        <div id='map' style='width: 1520px; height: 620px;'></div>
+        <div id='map' style='width: 1350px; height: 620px;'></div>
 <script>
 mapboxgl.accessToken = 'pk.eyJ1IjoiY3lyaXhuaW5qYSIsImEiOiJjazl3eGczMTgwOWs4M2dwMzZwamxyaWpzIn0.q9v1Q-jArMUoYWvn0KRcCQ';
 var map = new mapboxgl.Map({
@@ -69,44 +68,28 @@ map.addControl(new mapboxgl.NavigationControl());
             </div>
         </section>
         <!-- Projects-->
-        <section class="projects-section bg-light" id="projects">
+       
+        <section class="about-section text-center" id="wbu">
             <div class="container">
-                <!-- Featured Project Row-->
-                <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/1.jpg" alt="" /></div>
-                    <div class="col-xl-4 col-lg-5">
-                        <div class="featured-text text-center text-lg-left">
-                            <h4>How does this website work?</h4>
-                            <p class="text-black-50 mb-0">This website uses the data provided by normal people to map coronapatients</p>
-                        </div>
-                    </div>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-white mb-4">What can you do to help?</h2>
+                        <p class="text-white-50">One major way to quell the pandemic, without the medication that isn't readily available to us, is to limit the spread<br>
+                            by using the most effective methods proven so far. They include:<br>
+                            1.Washing your hands<br>
+                            2.Wearing a mask in all public places<br>
+                            3.Leaving your house,only when needed, eg. for shopping
+                        
+                        
+                        </a>                    </div>
                 </div>
-               
+                <img class="img-fluid" src="assets/img/1.jpg" alt="" />
+            </div>
+        </section>   
+
 
             
 
-        <section class="signup-section" id="info">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-10 col-lg-8 mx-auto text-center">
-                        <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                        <h2 class="text-white mb-5">Submit Your Information Here</h2>
-                        <form class="form-inline d-flex"><input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" type="email" placeholder="Enter the Suggestions and  Information Here here" /><br><button class="btn btn-primary mx-auto" type="submit">Submit</button></form>
-                    </div>
-                </div>
-            </div>
-        </section>
-   <!-- what you can do-->
-   <section class="projects-section bg-light" id="wbu">
-    <h2>What can you do to help?</h2>
-    <p>One major way to quell the pandemic, without the medication that isn't readily available to us, is to limit the spread<br>
-    by using the most effective methods proven so far. They include:
-    <ol>
-        <li>Washing your hands</li>
-        <li>Wearing a mask in all public places</li>
-        <li>Leaving your house, <b>only</b> when needed, eg. for shopping </li>
-    </ol></p>
-</section>
         <!-- Contact-->
         <section class="contact-section bg-black" id="contact">
             <div class="container">
