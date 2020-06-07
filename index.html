@@ -1,145 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Tracker</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-        <script src='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js'></script>
-<link href='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css' rel='stylesheet' />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">Tracker</a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars"></i></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#wbu">What you can do</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="login.html">Login/Signup</a></li>
-                       
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Masthead-->
-        <header class="masthead">
-            <div class="container d-flex h-100 align-items-center">
-                <div class="mx-auto text-center">
-                  
-                    <h2 class="text-white-50 mx-auto mt-2 mb-5">Trying to track the virus</h2>
-                    
-                </div>
-            </div>
-        </header>
 
+<head>
 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-        <!--Map-->
-        <div id='map' style='width: 1350px; height: 620px;'></div>
-<script>
-mapboxgl.accessToken = 'pk.eyJ1IjoiY3lyaXhuaW5qYSIsImEiOiJjazl3eGczMTgwOWs4M2dwMzZwamxyaWpzIn0.q9v1Q-jArMUoYWvn0KRcCQ';
-var map = new mapboxgl.Map({
-container: 'map',
-style: 'mapbox://styles/mapbox/dark-v10'
-});
-map.addControl(new mapboxgl.NavigationControl());
+  <title>WaterSaver</title>
 
-</script>
-        <!-- About-->
-        <section class="about-section text-center" id="about">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <h2 class="text-white mb-4">Whats Tracker?</h2>
-                        <p class="text-white-50">Tracker is basically a website which tries to contact trace the patients using data provided by you</a>                    </div>
-                </div>
-                <img class="img-fluid" src="assets/img/main2.jpg" alt="" />
-            </div>
-        </section>
-        <!-- Projects-->
-       
-        <section class="about-section text-center" id="wbu">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <h2 class="text-white mb-4">What can you do to help?</h2>
-                        <p class="text-white-50">One major way to quell the pandemic, without the medication that isn't readily available to us, is to limit the spread<br>
-                            by using the most effective methods proven so far. They include:<br>
-                            1.Washing your hands<br>
-                            2.Wearing a mask in all public places<br>
-                            3.Leaving your house,only when needed, eg. for shopping
-                        
-                        
-                        </a>                    </div>
-                </div>
-                <img class="img-fluid" src="assets/img/1.jpg" alt="" />
-            </div>
-        </section>   
+  <!-- Bootstrap-->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+  <!-- Custom fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
 
+  <!-- Custom styles -->
+  <link href="css/one-page-wonder.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">WaterSaver</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/suggestions/suggestions.html"> Learn About Water Conservation</a>
+          </li>
+         
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="masthead text-center text-white">
+    <div class="masthead-content">
+      <div class="container">
+        <h1 class="masthead-heading mb-0">WaterSaver</h1>
+        <h2 class="masthead-subheading mb-0">Analysis of data received from Raspberry Pi</h2>
+        <a href="#" class="btn btn-primary btn-xl rounded-pill mt-5">Learn More</a>
+      </div>
+    </div>
+    <div class="bg-circle-1 bg-circle"></div>
+    <div class="bg-circle-2 bg-circle"></div>
+    <div class="bg-circle-3 bg-circle"></div>
+    <div class="bg-circle-4 bg-circle"></div>
+  </header>
+
+  <section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2">
+          <div class="p-5">
+            <img class="img-fluid rounded-circle" src="img/01.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="p-5">
+            <h2 class="display-4">Litres of Water Flowed</h2>
+            <h4><div><object data="flow.json"></object></div></h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="p-5">
+            <img class="img-fluid rounded-circle" src="img/02.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="p-5">
+            <h2 class="display-4">Average Water pH</h2>
+            <div><h4><div><object data="ph.json"></object></div> </h4></div>
             
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <!-- Contact-->
-        <section class="contact-section bg-black" id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Address</h4>
-                                <hr class="my-4" />
-                                <div class="small text-black-50">4923 Market Street, Orlando FL</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-envelope text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Email</h4>
-                                <hr class="my-4" />
-                                <div class="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Phone</h4>
-                                <hr class="my-4" />
-                                <div class="small text-black-50">+1 (555) 902-8832</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a><a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a><a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
-                </div>
-            </div>
-        </section>
-     
-        <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white-50"><div class="container">Copyright © Your Website 2020</div></footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-        <!-- Third party plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <script src="js/index.js"></script>
-    </body>
+  <section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2">
+          <div class="p-5">
+            <img class="img-fluid rounded-circle" src="img/03.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="p-5">
+            <h2 class="display-4">Suggestions for Improving It</h2>
+            <h4>Acidic Water (< 6.5 pH)</h4>
+            <p>
+              The primary way to treat the problem of low pH water is with the use of a neutralizer. The neutralizer feeds a solution into the water to prevent the water from reacting with the house plumbing or contributing to electrolytic corrosion; a typical neutralizing chemical is soda ash.</p>
+        
+            </p>
+            <h4>Basic Water(<7.5 pH) </h4>
+        <p>Alkaline water is generally is harmless until it is too high
+        Add sulfur, phosphoric acid or a pH-lowering solution lower the pH if the pH is too high</p>
+
+          </div>
+        
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-5 bg-black">
+    <div class="container">
+      <p class="m-0 text-center text-white small">Copyright &copy; Water Analyzer 2019</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
 </html>
